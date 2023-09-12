@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GitIntro {
+public class GitIntroController {
     @GetMapping("/intro")
     public String intro(){
         return "Introdução ao Git e GitHub";
