@@ -14,4 +14,7 @@ public class GitIntroController {
     public String testeConflito(){
         return "Testando um conflito";
     }
+
+    @GetMapping("/testeCommit")
+    public String testeCommit(){ return "testeCommit";}
 }
