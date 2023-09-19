@@ -10,4 +10,6 @@ public class GitIntroController {
         return "Introdução ao Git e GitHub";
     }
 
+    @GetMapping("/testeCommit")
+    public String testeCommit(){ return "testeCommit";}
 }
