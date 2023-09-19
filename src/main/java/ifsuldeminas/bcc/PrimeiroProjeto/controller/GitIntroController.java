@@ -19,5 +19,7 @@ public class GitIntroController {
     public String testeCommit(){ return "testeCommit";}
 
     @GetMapping("/testeCommitKevins")
-    public String testeCommit(){ return "Deu bom";}
+    public String testeCommitKevins(){ return "Deu bom";}
+    @GetMapping("/testeCommitKevin")
+    public String testeCommitKevin(){ return "testeCommitKevin";}
 }
