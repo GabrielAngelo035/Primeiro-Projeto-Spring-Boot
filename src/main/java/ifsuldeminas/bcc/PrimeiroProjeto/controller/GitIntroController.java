@@ -12,4 +12,7 @@ public class GitIntroController {
 
     @GetMapping("/testeCommit")
     public String testeCommit(){ return "testeCommit";}
+
+    @GetMapping("/testeCommitKevin")
+    public String testeCommitKevin(){ return "testeCommitKevin";}
 }
